@@ -1,0 +1,9 @@
+*.pyc
+app/*.pyc
+/flask
+*.db-journal
+/.idea
+.idea/workspace.xml
+/QtApplication/*/*.o
+app.db
+.~lock.*
