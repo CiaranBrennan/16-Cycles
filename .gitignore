@@ -7,3 +7,4 @@ app/*.pyc
 /QtApplication/*/*.o
 app.db
 .~lock.*
+.env

@@ -1,9 +1,8 @@
-WTF_CSRF_ENABLED = False
-SECRET_KEY = '39994353502789d8701e9ff62e8f86d1'
-
-
 import os
+from decouple import config
 
+WTF_CSRF_ENABLED = False
+SECRET_KEY = config("SECRET_KEY")
 
 MAIL_SERVER = 'smtp.gmail.com'
 MAIL_PORT = 587
